@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.tertiary-btn {
+    line-height: 24px;
+    color: #4CAF4F;
+    font-weight: 500;
+    padding: 8px 24px;
+    border-radius: 6px;
+}
+.tertiary-btn:hover {
+    background-color: #F5F7FA;
+}
+
+.primary-btn-normal,
+.primary-btn-medium,
+.primary-btn-small {
+    color:#fff;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background:  #4CAF4F
+}
+.primary-btn-medium{
+    padding: 14px 32px;
+}
+.primary-btn-small{
+    padding: 8px 24px;
+}
